@@ -97,6 +97,22 @@ public class CustomersOrdersLoader implements Loader {
 
 	}
 
+	public Customer getCurrentCustomer() {
+		return currentCustomer;
+	}
+
+	public void setCurrentCustomer(Customer currentCustomer) {
+		this.currentCustomer = currentCustomer;
+	}
+
+	public Order getCurrentOrder() {
+		return currentOrder;
+	}
+
+	public void setCurrentOrder(Order currentOrder) {
+		this.currentOrder = currentOrder;
+	}
+
 	public void parseLineToCustomerOdrder(String line, int lastLineIndex) {
 		log.debug("parsing line no " + lastLineIndex);
 
