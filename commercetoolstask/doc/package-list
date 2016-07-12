@@ -1,0 +1,9 @@
+de.commercetools.javacodingtask.client
+de.commercetools.javacodingtask.errors
+de.commercetools.javacodingtask.models
+de.task.loader
+de.task.reader
+de.task.upload
+de.task.utils
+io.sphere.sdk.models
+main
